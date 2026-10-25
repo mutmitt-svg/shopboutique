@@ -514,3 +514,5 @@ CREATE INDEX IF NOT EXISTS idx_imei_status ON imei_units(lifecycle_status);
 CREATE INDEX IF NOT EXISTS idx_sm_variant ON stock_movements(variant_id);
 CREATE INDEX IF NOT EXISTS idx_audit_entity ON audit_log(entity);
 CREATE INDEX IF NOT EXISTS idx_audit_date ON audit_log(created_at);
+
+
